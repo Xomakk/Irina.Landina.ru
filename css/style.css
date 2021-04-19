@@ -1,0 +1,266 @@
+@import url("font/stylesheet.css");
+
+body {
+    background: url('../img/background.jpg');
+    background-size: 100%;
+}
+
+nav {
+    margin-top: 55px;
+    margin-left: 37%;
+}
+
+.offer {
+    height: 919px;
+    width: 100%;
+}
+
+.butUp1 {
+position: absolute;
+
+    width: 283.9px;
+    height: 60px;
+    
+background: #FFFFFF;
+border-radius: 50px;
+size: cover;
+filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.35));
+border: 10px;
+border-color: #000;
+font-family: Tajawal;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 88.2%;
+/* or 21px */
+text-indent: 45px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.05em;
+outline: 0 !important;
+color: #000000;
+}
+
+.butUp2 {
+position: absolute;
+
+    width: 283.95px;
+    height: 60px;
+    margin-left: 296px;
+
+background: #FFFFFF;
+border-radius: 50px;
+border: 0px;
+    
+filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.35));
+font-family: Tajawal;
+font-style: normal;
+font-size: 26px;
+line-height: 88.2%;
+/* or 21px */
+outline: 0 !important;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.05em;
+text-indent: 45px;
+color: #000000;
+}
+
+.butUp3 {
+position: absolute;
+
+    width: 284px;
+    height: 60px;
+    margin-left: 592px;
+
+background: #FFFFFF;
+border-radius: 50px;
+border: 0px;
+outline: 0 !important;
+filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.35));
+font-family: Tajawal;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 88.2%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.05em;
+text-indent: 45px;
+color: #000000;
+}
+
+.h1 {
+    position: absolute;
+
+    width: 816px;
+    height: 58px;
+    margin-left: 36%;
+    top: 128px;
+    
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    /* or 72px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.h2 {
+/* мастер-бровист */
+position: absolute;
+
+width: 408px;
+height: 45px;
+margin-left: 36%;
+top: 226px;
+
+font-family: Tajawal;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 100%;
+/* or 36px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2em;
+color: #000000;
+}
+
+.portret {
+position: absolute;
+width: 423px;
+height: 645px;
+margin-left: 4.5%;
+top: 53px;
+filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.5));
+display: flex;
+}
+
+a {
+    text-decoration: none;
+   }
+   a:link, a:visited {
+     color: #000;
+   }
+
+.bigbutton {
+position: absolute;
+
+    width: 633px;
+    height: 55px;
+    margin-left: 28.125%;
+    top: 840px;
+border: none;
+outline: 0px;
+display: flex;
+padding: 0.4em;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+border-radius: 50px;
+text-align: center;
+font-family: Tajawal;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 88.2%;
+align-items: center;
+letter-spacing: -0.05em;
+text-indent: 160px;
+color: #000000;
+  }
+
+button:hover {
+    transform: scale(0.97);
+    border: 10px;
+    border: 1px solid black;
+}
+
+a:hover {
+    transform: scale(0.97);
+    border: 10px;
+    border: 1px solid black;
+}
+
+.UpMenu {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .offer {
+        height: 1050px;
+    }
+    .portret {
+        top: 149px;
+    }
+    .h1, .h2 {
+        margin-left: 43%;
+    }
+    .butUp1, .butUp2, .butUp3 {
+        margin-top: 15px;
+    }
+    nav {
+        position: fixed;
+        margin-left: 20%;
+        margin-top: 0px;
+
+    }
+    .nav_panel {
+        height: 93px;
+        width: 100%;
+        position: fixed;
+        background-color: #F2C4C6;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .butUp1, .butUp2, .butUp3 {
+        display: none;
+    }
+    .UpMenu {
+        display: flex;
+        height: 81px;
+        width: 81px;
+        margin-left: 70%;
+        list-style: none;
+        position: relative;
+    }
+    .UpMenuimg {
+        display: flex;
+        margin-top: -12px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .listMenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+
+    .UpMenuimg:hover {
+        border-radius: 500px;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: inherit;
+    }
+
+    naw ul ul li {
+        min-width:170px;
+        z-index: 99999;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+
+}
